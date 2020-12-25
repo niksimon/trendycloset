@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    float: left;
+    width: 280px;
+    background-color: #222;
+    color: #fff;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0 0 20px #333;
+}
+.menu h1{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    font-size: 42px;
+}
+.menu h2{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.menu li:first-child a{
+    border-top: 3px solid #777;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: block;
+    border-bottom: 3px solid #777;
+    padding: 15px 20px;
+    font-size: 18px;
+    transition: background-color .15s, color .15s, font-weight .15s;
+}
+.menu li a:hover{
+    background-color: #89c4ff;
+    color: #222;
+    font-weight: 700;
+}
+.main{
+    float: left;
+    margin-left: 300px;
+    padding: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.main h2{
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.main table{
+    margin-top: 10px;
+}
+.main table th{
+    text-transform: uppercase;
+}
+.main .edit-link{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.main .edit-link:hover{
+    text-decoration: underline;
+}
+.main table td, .main table th{
+    padding: 5px 15px;	
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.form-block .row{
+    padding: 5px 0;
+    font-size: 18px;
+}
+.form-block .row input[type='text'], .form-block .row input[type='password'],.form-block .row select{
+    font-size: 18px;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #333;
+}
+.form-block .row select{
+    width: 262px;
+}
+.form-block .row span{
+    display: inline-block;
+    width: 100px;
+}
+.form-block input[type='submit']{
+    width: 362px;
+    padding: 10px 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #222;
+    text-transform: uppercase;
+    transition: background-color .15s;
+}
+.form-block input[type='submit']:hover{
+    background-color: #89c4ff;
+}
